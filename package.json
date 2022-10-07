@@ -28,10 +28,10 @@
     "test": "nx run-many --target=test --all --parallel"
   },
   "lint-staged": {
-    "./packages/**/*.css": [
+    "./{apps,libs}/**/*.css": [
       "yarn stylelint:fix"
     ],
-    "./packages/**/*.{json,js,jsx,ts,tsx,svelte}": [
+    "./{apps,libs}/**/*.{json,js,jsx,ts,tsx,svelte}": [
       "yarn prettier:fix"
     ]
   },
