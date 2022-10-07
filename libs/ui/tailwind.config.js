@@ -1,11 +1,9 @@
+const { createGlobPatternsForDependencies } = require('@nrwl/react/tailwind');
 const { join } = require('path');
 
-// available since Nx v 12.5
-const { createGlobPatternsForDependencies } = require('@nrwl/next/tailwind');
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  presets: [require('../../tailwind-workspace-preset.js')],
   content: [
     join(
       __dirname,
