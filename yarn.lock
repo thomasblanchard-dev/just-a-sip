@@ -2220,29 +2220,6 @@
     webpack "^4 || ^5"
     webpack-node-externals "^3.0.0"
 
-"@nrwl/cypress@15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-15.0.5.tgz#9aa1ff9c6a9209458d2c4463ec3e9829dea59b96"
-  integrity sha512-DjckLhzBP2JF9IT7ZlR9E0IoCJ9wzXoLWodmVDCtCLw3+gjjJt3aIF74R56hidPiUkNTfcvPciMpg8b+UL7HQg==
-  dependencies:
-    "@babel/core" "^7.0.1"
-    "@babel/preset-env" "^7.0.0"
-    "@cypress/webpack-preprocessor" "^5.12.0"
-    "@nrwl/devkit" "15.0.5"
-    "@nrwl/linter" "15.0.5"
-    "@nrwl/workspace" "15.0.5"
-    "@phenomnomnominal/tsquery" "4.1.1"
-    babel-loader "^8.0.2"
-    chalk "4.1.0"
-    dotenv "~10.0.0"
-    fork-ts-checker-webpack-plugin "7.2.13"
-    semver "7.3.4"
-    ts-loader "^9.3.1"
-    tsconfig-paths-webpack-plugin "3.5.2"
-    tslib "^2.3.0"
-    webpack "^4 || ^5"
-    webpack-node-externals "^3.0.0"
-
 "@nrwl/devkit@15.0.11":
   version "15.0.11"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-15.0.11.tgz#ead61d5fd82bf89dac7b9c7b05d6cddf08400b5f"
@@ -2504,22 +2481,22 @@
     webpack "^5.58.1"
     webpack-merge "^5.8.0"
 
-"@nrwl/react@15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.0.5.tgz#e2b99cb8f98abfda0aaca20fd56a400eb6e0ee89"
-  integrity sha512-ksvDda0i0XrXDcVaNe39RZ6sHQ8df9zDrhNIp9hCbz69RAUxVQuTJLEAZ5hEHndwZJ6/2tZn1/TWKAkdwiqLiw==
+"@nrwl/react@15.0.12":
+  version "15.0.12"
+  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.0.12.tgz#d0c7ea5ef9e34157280768b0eb9ef1f856aa804c"
+  integrity sha512-IgyOthtqavwH+ZW55lBTBFKUfCy0jTTCNsziVgmaFjnnTM48behW4RG+BcQizNf+zrbTvRRtmLYbitCTwfJVEA==
   dependencies:
     "@babel/core" "^7.15.0"
     "@babel/preset-react" "^7.14.5"
-    "@nrwl/cypress" "15.0.5"
-    "@nrwl/devkit" "15.0.5"
-    "@nrwl/jest" "15.0.5"
-    "@nrwl/js" "15.0.5"
-    "@nrwl/linter" "15.0.5"
-    "@nrwl/storybook" "15.0.5"
-    "@nrwl/web" "15.0.5"
-    "@nrwl/webpack" "15.0.5"
-    "@nrwl/workspace" "15.0.5"
+    "@nrwl/cypress" "15.0.12"
+    "@nrwl/devkit" "15.0.12"
+    "@nrwl/jest" "15.0.12"
+    "@nrwl/js" "15.0.12"
+    "@nrwl/linter" "15.0.12"
+    "@nrwl/storybook" "15.0.12"
+    "@nrwl/web" "15.0.12"
+    "@nrwl/webpack" "15.0.12"
+    "@nrwl/workspace" "15.0.12"
     "@phenomnomnominal/tsquery" "4.1.1"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
     "@svgr/webpack" "^6.1.2"
@@ -2530,7 +2507,7 @@
     semver "7.3.4"
     style-loader "^3.3.0"
     stylus "^0.55.0"
-    stylus-loader "^6.2.0"
+    stylus-loader "^7.1.0"
     url-loader "^4.1.1"
     webpack "^5.58.1"
     webpack-merge "^5.8.0"
@@ -2589,34 +2566,7 @@
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
-"@nrwl/rollup@15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/rollup/-/rollup-15.0.5.tgz#4f351859cdd3452cf8ad0bf143839cd78c528e5b"
-  integrity sha512-MAqfnmZle51P4GscrzP23or91SVf4pxWrLIooxK2nDljg4eGuHKk2J+lua5fCERi1uBcD/CuoVrL0GUi+6TRJA==
-  dependencies:
-    "@nrwl/devkit" "15.0.5"
-    "@nrwl/js" "15.0.5"
-    "@nrwl/workspace" "15.0.5"
-    "@rollup/plugin-babel" "^5.3.0"
-    "@rollup/plugin-commonjs" "^20.0.0"
-    "@rollup/plugin-image" "^2.1.0"
-    "@rollup/plugin-json" "^4.1.0"
-    "@rollup/plugin-node-resolve" "^13.0.4"
-    autoprefixer "^10.4.9"
-    babel-plugin-transform-async-to-promises "^0.8.15"
-    chalk "4.1.0"
-    dotenv "~10.0.0"
-    fs-extra "^10.1.0"
-    postcss "^8.4.14"
-    rollup "^2.56.2"
-    rollup-plugin-copy "^3.4.0"
-    rollup-plugin-peer-deps-external "^2.2.4"
-    rollup-plugin-postcss "^4.0.1"
-    rollup-plugin-typescript2 "^0.31.1"
-    rxjs "^6.5.4"
-    tslib "^2.3.0"
-
-"@nrwl/storybook@15.0.11", "@nrwl/storybook@^15.0.5":
+"@nrwl/storybook@15.0.11":
   version "15.0.11"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.0.11.tgz#71aaf857880939ce7009e309a51cccdb431eec06"
   integrity sha512-5AFG7PrrUc2h/P8NXNOq3pVJfZLCXuMCjaD53rC0hntzlVwg4YkakoNKsyBg8Xf1KHucxFXmASUu3lpp0fGXaQ==
@@ -2628,15 +2578,15 @@
     dotenv "~10.0.0"
     semver "7.3.4"
 
-"@nrwl/storybook@15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.0.5.tgz#6623e8fb72c1fa9858ec7adde4e8e595971d67e5"
-  integrity sha512-9oFiC973LaImgdbTIE4u6pQVODWSE1sjTrfgiO39wvS8EezG3i2EsCEiXPl+FkbIB5EFxe17vtjajT8MwAjtug==
+"@nrwl/storybook@15.0.12", "@nrwl/storybook@^15.0.5":
+  version "15.0.12"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.0.12.tgz#2f25c6856ab8d732ca2af271b9c5b2104bc4c018"
+  integrity sha512-EsXOCVjenpb4LYJZQZnVznOFJUQy4XUqI4U0fjgMW80cXsyffgyKK15YrALFYmuGOjMYTO5L0xe1gBI0xrNvEw==
   dependencies:
-    "@nrwl/cypress" "15.0.5"
-    "@nrwl/devkit" "15.0.5"
-    "@nrwl/linter" "15.0.5"
-    "@nrwl/workspace" "15.0.5"
+    "@nrwl/cypress" "15.0.12"
+    "@nrwl/devkit" "15.0.12"
+    "@nrwl/linter" "15.0.12"
+    "@nrwl/workspace" "15.0.12"
     dotenv "~10.0.0"
     semver "7.3.4"
 
@@ -2710,35 +2660,6 @@
     "@nrwl/rollup" "15.0.12"
     "@nrwl/webpack" "15.0.12"
     "@nrwl/workspace" "15.0.12"
-    babel-plugin-const-enum "^1.0.1"
-    babel-plugin-macros "^2.8.0"
-    babel-plugin-transform-typescript-metadata "^0.3.1"
-    chalk "4.1.0"
-    chokidar "^3.5.1"
-    http-server "^14.1.0"
-    ignore "^5.0.4"
-    tslib "^2.3.0"
-
-"@nrwl/web@15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-15.0.5.tgz#1f2e3c5d82d6664a00d935aea522018c5063a70e"
-  integrity sha512-5VOO/lEt251oQLcnKq2UW3r/FCh6TrPXF1E03ocvXxmJMg+6tJ0tqo4UQ5UfDx87/8OlGFtp8iRGhh/wRIoMtw==
-  dependencies:
-    "@babel/core" "^7.15.0"
-    "@babel/plugin-proposal-class-properties" "^7.14.5"
-    "@babel/plugin-proposal-decorators" "^7.14.5"
-    "@babel/plugin-transform-runtime" "^7.15.0"
-    "@babel/preset-env" "^7.15.0"
-    "@babel/preset-typescript" "^7.15.0"
-    "@babel/runtime" "^7.14.8"
-    "@nrwl/cypress" "15.0.5"
-    "@nrwl/devkit" "15.0.5"
-    "@nrwl/jest" "15.0.5"
-    "@nrwl/js" "15.0.5"
-    "@nrwl/linter" "15.0.5"
-    "@nrwl/rollup" "15.0.5"
-    "@nrwl/webpack" "15.0.5"
-    "@nrwl/workspace" "15.0.5"
     babel-plugin-const-enum "^1.0.1"
     babel-plugin-macros "^2.8.0"
     babel-plugin-transform-typescript-metadata "^0.3.1"
@@ -2841,59 +2762,6 @@
     style-loader "^3.3.0"
     stylus "^0.55.0"
     stylus-loader "^7.1.0"
-    terser-webpack-plugin "^5.3.3"
-    ts-loader "^9.3.1"
-    ts-node "10.9.1"
-    tsconfig-paths "^3.9.0"
-    tsconfig-paths-webpack-plugin "3.5.2"
-    tslib "^2.3.0"
-    webpack "^5.58.1"
-    webpack-dev-server "^4.9.3"
-    webpack-merge "^5.8.0"
-    webpack-node-externals "^3.0.0"
-    webpack-sources "^3.2.3"
-    webpack-subresource-integrity "^5.1.0"
-
-"@nrwl/webpack@15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/webpack/-/webpack-15.0.5.tgz#7d458c0124207d8addb6fe3767a83476f15ae22e"
-  integrity sha512-xeGL5aTSzwuyps1ddKLR9W1/jZwLtAxaGsFoM4H3MaJFOdRnxAIiB0bwSM7IMJsJnlVaDyaN81W1vFQIBbXxKQ==
-  dependencies:
-    "@nrwl/devkit" "15.0.5"
-    "@nrwl/js" "15.0.5"
-    "@nrwl/workspace" "15.0.5"
-    autoprefixer "^10.4.9"
-    babel-loader "^8.2.2"
-    browserslist "^4.16.6"
-    caniuse-lite "^1.0.30001394"
-    chalk "4.1.0"
-    chokidar "^3.5.1"
-    copy-webpack-plugin "^10.2.4"
-    css-loader "^6.4.0"
-    css-minimizer-webpack-plugin "^3.4.1"
-    dotenv "~10.0.0"
-    file-loader "^6.2.0"
-    fork-ts-checker-webpack-plugin "7.2.13"
-    fs-extra "^10.1.0"
-    ignore "^5.0.4"
-    less "3.12.2"
-    less-loader "^10.1.0"
-    license-webpack-plugin "^4.0.2"
-    loader-utils "1.2.3"
-    mini-css-extract-plugin "~2.4.7"
-    parse5 "4.0.0"
-    parse5-html-rewriting-stream "6.0.1"
-    postcss "^8.4.14"
-    postcss-import "~14.1.0"
-    postcss-loader "^6.1.1"
-    raw-loader "^4.0.2"
-    rxjs "^6.5.4"
-    sass "^1.42.1"
-    sass-loader "^12.2.0"
-    source-map-loader "^3.0.0"
-    style-loader "^3.3.0"
-    stylus "^0.55.0"
-    stylus-loader "^6.2.0"
     terser-webpack-plugin "^5.3.3"
     ts-loader "^9.3.1"
     ts-node "10.9.1"
@@ -7992,11 +7860,6 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emojis-list@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
-  integrity sha512-knHEZMgs8BB+MInokmNTg/OyPlAddghe1YBgNwJBc5zsJi/uyIcXoSDsL/W9ymOsBoBGdPIHXYJ9+qKFwRwDng==
-
 emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
@@ -11997,13 +11860,6 @@ lazy-universal-dotenv@^3.0.1:
     dotenv "^8.0.0"
     dotenv-expand "^5.1.0"
 
-less-loader@^10.1.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/less-loader/-/less-loader-10.2.0.tgz#97286d8797dc3dc05b1d16b0ecec5f968bdd4e32"
-  integrity sha512-AV5KHWvCezW27GT90WATaDnfXBv99llDbtaj4bshq6DvAihMdNjaPDcUMa6EXKLRF+P2opFenJp89BXg91XLYg==
-  dependencies:
-    klona "^2.0.4"
-
 less-loader@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/less-loader/-/less-loader-11.1.0.tgz#a452384259bdf8e4f6d5fdcc39543609e6313f82"
@@ -12136,15 +11992,6 @@ loader-runner@^4.2.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-4.3.0.tgz#c1b4a163b99f614830353b16755e7149ac2314e1"
   integrity sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==
-
-loader-utils@1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
-  integrity sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA==
-  dependencies:
-    big.js "^5.2.2"
-    emojis-list "^2.0.0"
-    json5 "^1.0.1"
 
 loader-utils@^1.2.3:
   version "1.4.1"
@@ -16291,15 +16138,6 @@ stylelint@^14.13.0:
     table "^6.8.1"
     v8-compile-cache "^2.3.0"
     write-file-atomic "^4.0.2"
-
-stylus-loader@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/stylus-loader/-/stylus-loader-6.2.0.tgz#0ba499e744e7fb9d9b3977784c8639728a7ced8c"
-  integrity sha512-5dsDc7qVQGRoc6pvCL20eYgRUxepZ9FpeK28XhdXaIPP6kXr6nI1zAAKFQgP5OBkOfKaURp4WUpJzspg1f01Gg==
-  dependencies:
-    fast-glob "^3.2.7"
-    klona "^2.0.4"
-    normalize-path "^3.0.0"
 
 stylus-loader@^7.1.0:
   version "7.1.0"
