@@ -1,0 +1,15 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--access public"]
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "npmClient": "npm",
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
+}
