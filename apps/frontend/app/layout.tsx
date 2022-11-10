@@ -1,5 +1,8 @@
+'use client';
+
 import '../styles/global.css';
 import { NavBar } from './NavBar';
+import { SessionProvider } from 'next-auth/react';
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -16,7 +19,7 @@ export default function RootLayout({
       </head>
       <body>
         <NavBar />
-        {children}
+        <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
   );
