@@ -2325,18 +2325,18 @@
     tslib "^2.3.0"
 
 "@nrwl/next@^15.0.5":
-  version "15.0.12"
-  resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-15.0.12.tgz#ba8ef670b792acbf1efc538b2c8ad046ed4008bb"
-  integrity sha512-+sfEiq+ySyqfZlt5iTmhh/K4t8hKsAlc5ZU8yITrqHUAj/Yt0OjM0T0GmgLyyvCDbcVlebJ/M/slLoF9fpNZkw==
+  version "15.0.13"
+  resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-15.0.13.tgz#3cbb1dc06c88aabf29723ec9a2106ca733d5b43a"
+  integrity sha512-lCdn/7qmGUzT7ZIcZrdjDfHSY/HEb4uhFMBH2lNUFSLox5H6MaBBMv4nSM1RZmvScJy6XQKLSHMKgrC2RS6eIw==
   dependencies:
     "@babel/plugin-proposal-decorators" "^7.14.5"
-    "@nrwl/cypress" "15.0.12"
-    "@nrwl/devkit" "15.0.12"
-    "@nrwl/jest" "15.0.12"
-    "@nrwl/linter" "15.0.12"
-    "@nrwl/react" "15.0.12"
-    "@nrwl/webpack" "15.0.12"
-    "@nrwl/workspace" "15.0.12"
+    "@nrwl/cypress" "15.0.13"
+    "@nrwl/devkit" "15.0.13"
+    "@nrwl/jest" "15.0.13"
+    "@nrwl/linter" "15.0.13"
+    "@nrwl/react" "15.0.13"
+    "@nrwl/webpack" "15.0.13"
+    "@nrwl/workspace" "15.0.13"
     "@svgr/webpack" "^6.1.2"
     chalk "4.1.0"
     dotenv "~10.0.0"
@@ -2378,6 +2378,37 @@
     "@nrwl/web" "15.0.12"
     "@nrwl/webpack" "15.0.12"
     "@nrwl/workspace" "15.0.12"
+    "@phenomnomnominal/tsquery" "4.1.1"
+    "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
+    "@svgr/webpack" "^6.1.2"
+    chalk "4.1.0"
+    css-loader "^6.4.0"
+    minimatch "3.0.5"
+    react-refresh "^0.10.0"
+    semver "7.3.4"
+    style-loader "^3.3.0"
+    stylus "^0.55.0"
+    stylus-loader "^7.1.0"
+    url-loader "^4.1.1"
+    webpack "^5.58.1"
+    webpack-merge "^5.8.0"
+
+"@nrwl/react@15.0.13":
+  version "15.0.13"
+  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.0.13.tgz#897424f622007ac3bdc324861af6ea3cfa0fe816"
+  integrity sha512-Xj7leVqyxaCBFZ7MD6W2+oCMQ857Js3TUqK0hNdkcC/Q/xPmXUhdokQ9ynHJ67+P8rdKDMu5sb2i90CcOW/7jQ==
+  dependencies:
+    "@babel/core" "^7.15.0"
+    "@babel/preset-react" "^7.14.5"
+    "@nrwl/cypress" "15.0.13"
+    "@nrwl/devkit" "15.0.13"
+    "@nrwl/jest" "15.0.13"
+    "@nrwl/js" "15.0.13"
+    "@nrwl/linter" "15.0.13"
+    "@nrwl/storybook" "15.0.13"
+    "@nrwl/web" "15.0.13"
+    "@nrwl/webpack" "15.0.13"
+    "@nrwl/workspace" "15.0.13"
     "@phenomnomnominal/tsquery" "4.1.1"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
     "@svgr/webpack" "^6.1.2"
@@ -2456,6 +2487,18 @@
     "@nrwl/devkit" "15.0.12"
     "@nrwl/linter" "15.0.12"
     "@nrwl/workspace" "15.0.12"
+    dotenv "~10.0.0"
+    semver "7.3.4"
+
+"@nrwl/storybook@15.0.13":
+  version "15.0.13"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.0.13.tgz#47e57dfc385529a881d00486fd1f9de96d1bd08e"
+  integrity sha512-96OJu53SVYi8HllNe9TS/dJRVE2RywsscxhvWt9tOj2pdlunz07rGkyYcnwTxQOQKLe8NsMnjmIGgVMsQxlBQQ==
+  dependencies:
+    "@nrwl/cypress" "15.0.13"
+    "@nrwl/devkit" "15.0.13"
+    "@nrwl/linter" "15.0.13"
+    "@nrwl/workspace" "15.0.13"
     dotenv "~10.0.0"
     semver "7.3.4"
 
