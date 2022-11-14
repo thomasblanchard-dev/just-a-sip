@@ -1,4 +1,4 @@
-name: Build main branch
+name: Deploy Storybook
 
 on:
   push:
