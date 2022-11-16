@@ -2362,37 +2362,6 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/react@15.1.0":
-  version "15.1.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.1.0.tgz#463f485ece74cc9cd992bc5412f3f43b9afa0b4c"
-  integrity sha512-irvMLtd30G6WHfZePiLD/SgrPZhiYJgl9t7iYVsfrvp5cNc3hIyQ1/SyqbUll2W6Ra7ZbN31EZv3fhxm9WKktg==
-  dependencies:
-    "@babel/core" "^7.15.0"
-    "@babel/preset-react" "^7.14.5"
-    "@nrwl/cypress" "15.1.0"
-    "@nrwl/devkit" "15.1.0"
-    "@nrwl/jest" "15.1.0"
-    "@nrwl/js" "15.1.0"
-    "@nrwl/linter" "15.1.0"
-    "@nrwl/storybook" "15.1.0"
-    "@nrwl/web" "15.1.0"
-    "@nrwl/webpack" "15.1.0"
-    "@nrwl/workspace" "15.1.0"
-    "@phenomnomnominal/tsquery" "4.1.1"
-    "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
-    "@svgr/webpack" "^6.1.2"
-    chalk "4.1.0"
-    css-loader "^6.4.0"
-    minimatch "3.0.5"
-    react-refresh "^0.10.0"
-    semver "7.3.4"
-    style-loader "^3.3.0"
-    stylus "^0.55.0"
-    stylus-loader "^7.1.0"
-    url-loader "^4.1.1"
-    webpack "^5.58.1"
-    webpack-merge "^5.8.0"
-
 "@nrwl/react@15.1.1":
   version "15.1.1"
   resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.1.1.tgz#14cb0ec5f43ee595300022b49a5de4f08e4b5ff6"
@@ -2478,19 +2447,7 @@
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
-"@nrwl/storybook@15.1.0", "@nrwl/storybook@^15.0.5":
-  version "15.1.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.1.0.tgz#96ef6e7f81d40ee59eb83844a25701e432ba1e8b"
-  integrity sha512-gCDT73lw1gwhTnMyyjcQShc6dNVKAzB5YHcBCFvAX8dCI0vnk6JwCGD2x85xkaeFje+rKjNOoBmLqAT5Cj2gTg==
-  dependencies:
-    "@nrwl/cypress" "15.1.0"
-    "@nrwl/devkit" "15.1.0"
-    "@nrwl/linter" "15.1.0"
-    "@nrwl/workspace" "15.1.0"
-    dotenv "~10.0.0"
-    semver "7.3.4"
-
-"@nrwl/storybook@15.1.1":
+"@nrwl/storybook@15.1.1", "@nrwl/storybook@^15.0.5":
   version "15.1.1"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.1.1.tgz#ab1dca1ba7670b3476d8a489ccf8fa3828627f7c"
   integrity sha512-RhpoHYTEf4iH5ZSiAIcTaZQsdOJrrcz7/KppUWFZ/L5ZRS6P1vtFGOXIZWqeQpTegWfirTwZsEd9225k+f8kkg==
