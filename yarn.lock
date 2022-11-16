@@ -2478,7 +2478,7 @@
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
-"@nrwl/storybook@15.1.0", "@nrwl/storybook@^15.0.5":
+"@nrwl/storybook@15.1.0":
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.1.0.tgz#96ef6e7f81d40ee59eb83844a25701e432ba1e8b"
   integrity sha512-gCDT73lw1gwhTnMyyjcQShc6dNVKAzB5YHcBCFvAX8dCI0vnk6JwCGD2x85xkaeFje+rKjNOoBmLqAT5Cj2gTg==
@@ -2490,7 +2490,7 @@
     dotenv "~10.0.0"
     semver "7.3.4"
 
-"@nrwl/storybook@15.1.1":
+"@nrwl/storybook@15.1.1", "@nrwl/storybook@^15.0.5":
   version "15.1.1"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.1.1.tgz#ab1dca1ba7670b3476d8a489ccf8fa3828627f7c"
   integrity sha512-RhpoHYTEf4iH5ZSiAIcTaZQsdOJrrcz7/KppUWFZ/L5ZRS6P1vtFGOXIZWqeQpTegWfirTwZsEd9225k+f8kkg==
