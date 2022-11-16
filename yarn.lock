@@ -2288,6 +2288,25 @@
     source-map-support "0.5.19"
     tree-kill "1.2.2"
 
+"@nrwl/js@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/js/-/js-15.1.0.tgz#31bdb86a6dd3d0838440fe0e0eb3f2eca9f3cef0"
+  integrity sha512-ClrbNe+u+KqgSyucK4C6dy5QyQWs8/taRu/ZA/rcPV7ZTSqTuuFOCidGl0lBv8bNSGqp1pqsQNVhaXdbgX91lw==
+  dependencies:
+    "@nrwl/devkit" "15.1.0"
+    "@nrwl/jest" "15.1.0"
+    "@nrwl/linter" "15.1.0"
+    "@nrwl/workspace" "15.1.0"
+    "@parcel/watcher" "2.0.4"
+    chalk "4.1.0"
+    fast-glob "3.2.7"
+    fs-extra "^10.1.0"
+    ignore "^5.0.4"
+    js-tokens "^4.0.0"
+    minimatch "3.0.5"
+    source-map-support "0.5.19"
+    tree-kill "1.2.2"
+
 "@nrwl/linter@15.0.13":
   version "15.0.13"
   resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-15.0.13.tgz#6d74de76e5fc31e5813e74ef9ed2e6f50c2cd2df"
