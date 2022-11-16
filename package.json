@@ -48,7 +48,7 @@
     "@nrwl/eslint-plugin-nx": "15.1.0",
     "@nrwl/jest": "15.1.0",
     "@nrwl/js": "15.1.0",
-    "@nrwl/linter": "15.1.0",
+    "@nrwl/linter": "15.1.1",
     "@nrwl/next": "^15.0.5",
     "@nrwl/nx-cloud": "^15.0.1",
     "@nrwl/react": "15.1.0",
