@@ -2420,7 +2420,7 @@
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
-"@nrwl/storybook@15.1.1", "@nrwl/storybook@^15.0.5":
+"@nrwl/storybook@15.1.1":
   version "15.1.1"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.1.1.tgz#ab1dca1ba7670b3476d8a489ccf8fa3828627f7c"
   integrity sha512-RhpoHYTEf4iH5ZSiAIcTaZQsdOJrrcz7/KppUWFZ/L5ZRS6P1vtFGOXIZWqeQpTegWfirTwZsEd9225k+f8kkg==
@@ -2429,6 +2429,18 @@
     "@nrwl/devkit" "15.1.1"
     "@nrwl/linter" "15.1.1"
     "@nrwl/workspace" "15.1.1"
+    dotenv "~10.0.0"
+    semver "7.3.4"
+
+"@nrwl/storybook@^15.0.5":
+  version "15.2.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.2.0.tgz#beca5116bb96ccc20fa373a44b555cbf768ea3e9"
+  integrity sha512-rlLU49flCY2ONELvkbx9TA/l4tJ4L1B3kcdRUHPaj5pEL+XkyG1A4JE3ZVCZcdRzYIkkqK6AWcF5/ey6NXW7HA==
+  dependencies:
+    "@nrwl/cypress" "15.2.0"
+    "@nrwl/devkit" "15.2.0"
+    "@nrwl/linter" "15.2.0"
+    "@nrwl/workspace" "15.2.0"
     dotenv "~10.0.0"
     semver "7.3.4"
 
