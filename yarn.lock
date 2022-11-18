@@ -2325,18 +2325,18 @@
     tslib "^2.3.0"
 
 "@nrwl/next@^15.0.5":
-  version "15.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-15.1.1.tgz#8081d5aeb8e5c2a94084adafaf97deed950e37ea"
-  integrity sha512-xdN9eOV0USRSytHh8//v4g7YAFodeog0lEOYp5oBRoCPBCEHY4oG9u33GfxWVbEH7ZPkVmV5SiFAaLnpO2A1+Q==
+  version "15.2.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-15.2.0.tgz#c4adfee7b43500d07d09b9974c190e25b77ff47a"
+  integrity sha512-MeaF6lMnJrXYGMu3Yc1GqryPb2neCoaqwezaMfCKO1SWbcmxQT0N6eNxl6c32HXMQCHttplR5PosSZ2zlAlRcg==
   dependencies:
     "@babel/plugin-proposal-decorators" "^7.14.5"
-    "@nrwl/cypress" "15.1.1"
-    "@nrwl/devkit" "15.1.1"
-    "@nrwl/jest" "15.1.1"
-    "@nrwl/linter" "15.1.1"
-    "@nrwl/react" "15.1.1"
-    "@nrwl/webpack" "15.1.1"
-    "@nrwl/workspace" "15.1.1"
+    "@nrwl/cypress" "15.2.0"
+    "@nrwl/devkit" "15.2.0"
+    "@nrwl/jest" "15.2.0"
+    "@nrwl/linter" "15.2.0"
+    "@nrwl/react" "15.2.0"
+    "@nrwl/webpack" "15.2.0"
+    "@nrwl/workspace" "15.2.0"
     "@svgr/webpack" "^6.1.2"
     chalk "4.1.0"
     dotenv "~10.0.0"
@@ -2391,6 +2391,37 @@
     stylus-loader "^7.1.0"
     url-loader "^4.1.1"
     webpack "^5.58.1"
+    webpack-merge "^5.8.0"
+
+"@nrwl/react@15.2.0":
+  version "15.2.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.2.0.tgz#444f91f606db26150233088579cfe3d07e7460f5"
+  integrity sha512-XPd/HA34P3oSOM51W9lhFjyRVpbzZJFdjLEO+hVLIVQAzlypP7P/9KTfiScD3Wu824euG3PYFOvIyVkoS6VzOQ==
+  dependencies:
+    "@babel/core" "^7.15.0"
+    "@babel/preset-react" "^7.14.5"
+    "@nrwl/cypress" "15.2.0"
+    "@nrwl/devkit" "15.2.0"
+    "@nrwl/jest" "15.2.0"
+    "@nrwl/js" "15.2.0"
+    "@nrwl/linter" "15.2.0"
+    "@nrwl/storybook" "15.2.0"
+    "@nrwl/web" "15.2.0"
+    "@nrwl/webpack" "15.2.0"
+    "@nrwl/workspace" "15.2.0"
+    "@phenomnomnominal/tsquery" "4.1.1"
+    "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
+    "@svgr/webpack" "^6.1.2"
+    chalk "4.1.0"
+    css-loader "^6.4.0"
+    minimatch "3.0.5"
+    react-refresh "^0.10.0"
+    semver "7.3.4"
+    style-loader "^3.3.0"
+    stylus "^0.55.0"
+    stylus-loader "^7.1.0"
+    url-loader "^4.1.1"
+    webpack "^5.75.0"
     webpack-merge "^5.8.0"
 
 "@nrwl/rollup@15.1.1":
@@ -2459,7 +2490,7 @@
     dotenv "~10.0.0"
     semver "7.3.4"
 
-"@nrwl/storybook@^15.0.5":
+"@nrwl/storybook@15.2.0", "@nrwl/storybook@^15.0.5":
   version "15.2.0"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.2.0.tgz#beca5116bb96ccc20fa373a44b555cbf768ea3e9"
   integrity sha512-rlLU49flCY2ONELvkbx9TA/l4tJ4L1B3kcdRUHPaj5pEL+XkyG1A4JE3ZVCZcdRzYIkkqK6AWcF5/ey6NXW7HA==
