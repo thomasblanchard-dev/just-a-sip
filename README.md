@@ -22,9 +22,6 @@
   <a href="https://github.com/thomasblanchard-dev/spiritueux/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/thomasblanchard-dev/spiritueux.svg" alt="license" />
   </a>
-  <a href="https://github.com/thomasblanchard-dev/spiritueux/blob/master/LICENSE" target="_blank">
-    <img alt="License: Apache--2.0" src="https://img.shields.io/github/license/thomasblanchard-dev/spiritueux" />
-  </a>
 </p>
 
 ## Prerequisites
