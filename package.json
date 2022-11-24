@@ -53,7 +53,7 @@
     "@nrwl/nx-cloud": "^15.0.1",
     "@nrwl/react": "15.2.0",
     "@nrwl/storybook": "^15.0.5",
-    "@nrwl/web": "15.2.0",
+    "@nrwl/web": "15.2.1",
     "@nrwl/workspace": "15.2.0",
     "@storybook/addon-essentials": "~6.5.9",
     "@storybook/addon-postcss": "^2.0.0",
