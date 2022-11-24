@@ -2,8 +2,10 @@ name: Deploy Storybook
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request_review:
+    types:
+      - submitted
 jobs:
   build:
     name: Build
