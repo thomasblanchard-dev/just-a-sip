@@ -1,4 +1,4 @@
-import { Button } from '@spiritueux/ui';
+import { Button } from '@ptiritueux/ui';
 
 export function Index() {
   return (

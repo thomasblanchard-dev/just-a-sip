@@ -13,13 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <head>
-        <title>Welcome to frontend!</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
+      <head />
       <body>
-        <NavBar />
-        <SessionProvider>{children}</SessionProvider>
+        <SessionProvider>
+          <NavBar />
+          {children}
+        </SessionProvider>
       </body>
     </html>
   );
