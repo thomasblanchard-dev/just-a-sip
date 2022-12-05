@@ -2368,37 +2368,6 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/react@15.2.1":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.2.1.tgz#ad2e7b9d9f8162125b7de9a4745d7a5c28ee000a"
-  integrity sha512-QHJTJQOCMw6VUFExBJwIgeX1F9xOn7aC3ojd5CqCOciElQR8BJxAmf2ZD55uTs1387iHaZSZgg9PvG2Jyh3HNA==
-  dependencies:
-    "@babel/core" "^7.15.0"
-    "@babel/preset-react" "^7.14.5"
-    "@nrwl/cypress" "15.2.1"
-    "@nrwl/devkit" "15.2.1"
-    "@nrwl/jest" "15.2.1"
-    "@nrwl/js" "15.2.1"
-    "@nrwl/linter" "15.2.1"
-    "@nrwl/storybook" "15.2.1"
-    "@nrwl/web" "15.2.1"
-    "@nrwl/webpack" "15.2.1"
-    "@nrwl/workspace" "15.2.1"
-    "@phenomnomnominal/tsquery" "4.1.1"
-    "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
-    "@svgr/webpack" "^6.1.2"
-    chalk "4.1.0"
-    css-loader "^6.4.0"
-    minimatch "3.0.5"
-    react-refresh "^0.10.0"
-    semver "7.3.4"
-    style-loader "^3.3.0"
-    stylus "^0.55.0"
-    stylus-loader "^7.1.0"
-    url-loader "^4.1.1"
-    webpack "^5.75.0"
-    webpack-merge "^5.8.0"
-
 "@nrwl/react@15.2.4":
   version "15.2.4"
   resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.2.4.tgz#49fdbc81f09fa6547edd1c1bd39e3e4c12a63140"
@@ -2483,18 +2452,6 @@
     rollup-plugin-typescript2 "^0.31.1"
     rxjs "^6.5.4"
     tslib "^2.3.0"
-
-"@nrwl/storybook@15.2.1":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.2.1.tgz#f03e8a72ec64998730200aa98fb1b0a6d1d2aa72"
-  integrity sha512-rofprAZwC5Xp5fEa8vo8uWxmIJkV1DzpdO84grkRxjo2NUXp/plhhHu4nlSmPWdrXunXcPO7GDeD5YzEaaAfEg==
-  dependencies:
-    "@nrwl/cypress" "15.2.1"
-    "@nrwl/devkit" "15.2.1"
-    "@nrwl/linter" "15.2.1"
-    "@nrwl/workspace" "15.2.1"
-    dotenv "~10.0.0"
-    semver "7.3.4"
 
 "@nrwl/storybook@15.2.4", "@nrwl/storybook@^15.0.5":
   version "15.2.4"
