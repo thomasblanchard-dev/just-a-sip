@@ -1,14 +1,14 @@
 {
-  "name": "spiritueux",
+  "name": "ptiritueux",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/thomasblanchard-dev/spiritueux",
+  "homepage": "https://github.com/thomasblanchard-dev/ptiritueux",
   "bugs": {
-    "url": "https://github.com/thomasblanchard-dev/spiritueux/issues"
+    "url": "https://github.com/thomasblanchard-dev/ptiritueux/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasblanchard-dev/spiritueux.git"
+    "url": "git+https://github.com/thomasblanchard-dev/ptiritueux.git"
   },
   "license": "Apache-2.0",
   "scripts": {
@@ -113,7 +113,7 @@
     }
   ],
   "storybook-deployer": {
-    "gitUsername": "Spiritueux BOT",
+    "gitUsername": "Ptiritueux BOT",
     "commitMessage": "chore: deploy storybook"
   },
   "dependencies": {
