@@ -3223,26 +3223,26 @@
     webpack-virtual-modules "^0.2.2"
 
 "@storybook/builder-webpack5@~6.5.9":
-  version "6.5.13"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-6.5.13.tgz#b40a6fc0ff22b6e7c7e1a46a8fc3c24cf14833f8"
-  integrity sha512-juNH31ZljWbaoBD6Yx2/iQ4G66UBkwq+cFUqLzgVROKMXmYaT0AJYbfyY8CgGqcXkc+sqNA63yWaLWd8/K9vTg==
+  version "6.5.14"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-6.5.14.tgz#d200bfed3f45b631e417299024e335905429fb2c"
+  integrity sha512-Ukj7Wwxz/3mKn5TI5mkm2mIm583LxOz78ZrpcOgI+vpjeRlMFXmGGEb68R47SiCdZoVCfIeCXXXzBd6Q6As6QQ==
   dependencies:
     "@babel/core" "^7.12.10"
-    "@storybook/addons" "6.5.13"
-    "@storybook/api" "6.5.13"
-    "@storybook/channel-postmessage" "6.5.13"
-    "@storybook/channels" "6.5.13"
-    "@storybook/client-api" "6.5.13"
-    "@storybook/client-logger" "6.5.13"
-    "@storybook/components" "6.5.13"
-    "@storybook/core-common" "6.5.13"
-    "@storybook/core-events" "6.5.13"
-    "@storybook/node-logger" "6.5.13"
-    "@storybook/preview-web" "6.5.13"
-    "@storybook/router" "6.5.13"
+    "@storybook/addons" "6.5.14"
+    "@storybook/api" "6.5.14"
+    "@storybook/channel-postmessage" "6.5.14"
+    "@storybook/channels" "6.5.14"
+    "@storybook/client-api" "6.5.14"
+    "@storybook/client-logger" "6.5.14"
+    "@storybook/components" "6.5.14"
+    "@storybook/core-common" "6.5.14"
+    "@storybook/core-events" "6.5.14"
+    "@storybook/node-logger" "6.5.14"
+    "@storybook/preview-web" "6.5.14"
+    "@storybook/router" "6.5.14"
     "@storybook/semver" "^7.3.2"
-    "@storybook/store" "6.5.13"
-    "@storybook/theming" "6.5.13"
+    "@storybook/store" "6.5.14"
+    "@storybook/theming" "6.5.14"
     "@types/node" "^14.0.10 || ^16.0.0"
     babel-loader "^8.0.0"
     babel-plugin-named-exports-order "^0.0.2"
@@ -3987,7 +3987,7 @@
     prettier ">=2.2.1 <=2.3.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/store@6.5.13", "@storybook/store@^6.5.0":
+"@storybook/store@6.5.13":
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/store/-/store-6.5.13.tgz#0281bdf0e24c880f85ea75ae47b6a84e8545b5f8"
   integrity sha512-GG6lm+8fBX1tNUnX7x3raBOjYhhf14bPWLtYiPlxDTFEMs3sJte7zWKZq6NQ79MoBLL6jjzTeolBfDCBw6fiWQ==
@@ -4008,7 +4008,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/store@6.5.14":
+"@storybook/store@6.5.14", "@storybook/store@^6.5.0":
   version "6.5.14"
   resolved "https://registry.yarnpkg.com/@storybook/store/-/store-6.5.14.tgz#92b67aac8c6a55beff934e135937a1c6e1e77879"
   integrity sha512-s07Vw4nbShPYwBJmVXzptuyCkrDQD3khcrKB5L7NsHHgWsm2QI0OyiPMuMbSvgipjcMc/oRqdL3tFUeFak9EMg==
