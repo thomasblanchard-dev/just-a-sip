@@ -2152,29 +2152,6 @@
   dependencies:
     nx "15.3.2"
 
-"@nrwl/cypress@15.2.4":
-  version "15.2.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-15.2.4.tgz#d8fc84fe3842cd6d3b3416c10857ce02029be942"
-  integrity sha512-zVMI42KVm1Av3pfx+N3Yhsf9uQK6GxA6wV899CyT4wLAVSNZ6/zKIXlGsGUCEmv8/zNVoLv1QYH07MwIrfAkOg==
-  dependencies:
-    "@babel/core" "^7.0.1"
-    "@babel/preset-env" "^7.0.0"
-    "@cypress/webpack-preprocessor" "^5.12.0"
-    "@nrwl/devkit" "15.2.4"
-    "@nrwl/linter" "15.2.4"
-    "@nrwl/workspace" "15.2.4"
-    "@phenomnomnominal/tsquery" "4.1.1"
-    babel-loader "^8.0.2"
-    chalk "4.1.0"
-    dotenv "~10.0.0"
-    fork-ts-checker-webpack-plugin "7.2.13"
-    semver "7.3.4"
-    ts-loader "^9.3.1"
-    tsconfig-paths-webpack-plugin "3.5.2"
-    tslib "^2.3.0"
-    webpack "^4 || ^5"
-    webpack-node-externals "^3.0.0"
-
 "@nrwl/cypress@15.3.2":
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-15.3.2.tgz#534d7cb94666a95e2c1577edaeca4077c8249e6e"
@@ -2376,14 +2353,14 @@
     minimatch "3.0.5"
     semver "7.3.4"
 
-"@nrwl/rollup@15.2.4":
-  version "15.2.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/rollup/-/rollup-15.2.4.tgz#d3b78780d3c7a0fc9752937d0efff44ea4ea9bb6"
-  integrity sha512-/8HSvU2cMwSgSZjX0+yjCc3xqKtkBA7/NsDYAyM9kvnavUmprSXVyI99HU4Cz9z3uhzP8rXbv3Gvz8Iw0FvNJg==
+"@nrwl/rollup@15.3.2":
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/rollup/-/rollup-15.3.2.tgz#2a3dabbadbe2fe8987a2ec4dcf1def67617843fe"
+  integrity sha512-+i6K99ZoCRVx6TDG78OFxhomjmQ2xnT5Cx3G4qGAqOL0RnVHTxUv1m3dsTxUO+TtlTKV0HeIMK2JRGCS+jDnwQ==
   dependencies:
-    "@nrwl/devkit" "15.2.4"
-    "@nrwl/js" "15.2.4"
-    "@nrwl/workspace" "15.2.4"
+    "@nrwl/devkit" "15.3.2"
+    "@nrwl/js" "15.3.2"
+    "@nrwl/workspace" "15.3.2"
     "@rollup/plugin-babel" "^5.3.0"
     "@rollup/plugin-commonjs" "^20.0.0"
     "@rollup/plugin-image" "^2.1.0"
@@ -2429,10 +2406,22 @@
   dependencies:
     nx "15.3.2"
 
-"@nrwl/web@15.2.4":
-  version "15.2.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-15.2.4.tgz#aa6a5c4d375bf33ae3b619a689b5112f6bd3a323"
-  integrity sha512-fr4PwzjzDzq53RZYhSCR+chXR96dTX2Ko2CETH95MCSOh4V/8173uxkjKdn6UFEt7tDEEBHfXYv1OztP/aS2ig==
+"@nrwl/vite@15.3.2":
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/vite/-/vite-15.3.2.tgz#60e6cbe9691154e2c42e1c50ea89cddcea5ad766"
+  integrity sha512-tH4iGJU/TOp9lz13SiduKc8cglEV9ExfUaVJTHKIu9oyr8v4TkzA6jXqPHvq9PCbCjzP9kNcZc3yle84tcr46Q==
+  dependencies:
+    "@nrwl/devkit" "15.3.2"
+    "@nrwl/js" "15.3.2"
+    "@nrwl/workspace" "15.3.2"
+    "@swc/helpers" "^0.4.11"
+    chalk "4.1.0"
+    dotenv "~10.0.0"
+
+"@nrwl/web@15.3.2":
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-15.3.2.tgz#af1d8fb419cb06fe032f0aff49f8dc513890f34c"
+  integrity sha512-OWhuvwTOnDzf61YHDu5owEFGz17mpbICoWnJAvqdZ+H9QbuRzwc5SQTEjXk8BSyEu2uAdtYtpfaK2CgHp+hkmQ==
   dependencies:
     "@babel/core" "^7.15.0"
     "@babel/plugin-proposal-class-properties" "^7.14.5"
@@ -2441,14 +2430,15 @@
     "@babel/preset-env" "^7.15.0"
     "@babel/preset-typescript" "^7.15.0"
     "@babel/runtime" "^7.14.8"
-    "@nrwl/cypress" "15.2.4"
-    "@nrwl/devkit" "15.2.4"
-    "@nrwl/jest" "15.2.4"
-    "@nrwl/js" "15.2.4"
-    "@nrwl/linter" "15.2.4"
-    "@nrwl/rollup" "15.2.4"
-    "@nrwl/webpack" "15.2.4"
-    "@nrwl/workspace" "15.2.4"
+    "@nrwl/cypress" "15.3.2"
+    "@nrwl/devkit" "15.3.2"
+    "@nrwl/jest" "15.3.2"
+    "@nrwl/js" "15.3.2"
+    "@nrwl/linter" "15.3.2"
+    "@nrwl/rollup" "15.3.2"
+    "@nrwl/vite" "15.3.2"
+    "@nrwl/webpack" "15.3.2"
+    "@nrwl/workspace" "15.3.2"
     babel-plugin-const-enum "^1.0.1"
     babel-plugin-macros "^2.8.0"
     babel-plugin-transform-typescript-metadata "^0.3.1"
@@ -2457,59 +2447,6 @@
     http-server "^14.1.0"
     ignore "^5.0.4"
     tslib "^2.3.0"
-
-"@nrwl/webpack@15.2.4":
-  version "15.2.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/webpack/-/webpack-15.2.4.tgz#8de3c1c9a7819e1427113062013dab036d927736"
-  integrity sha512-Ojkqu85XckolSvyaTIndETcfqJCA3bxTMDEsP0WPFasBT0N/1kmw3vrt2ZjsPj52J/NAvlOkCqlrpgWWv3acLg==
-  dependencies:
-    "@nrwl/devkit" "15.2.4"
-    "@nrwl/js" "15.2.4"
-    "@nrwl/workspace" "15.2.4"
-    autoprefixer "^10.4.9"
-    babel-loader "^8.2.2"
-    browserslist "^4.21.4"
-    caniuse-lite "^1.0.30001394"
-    chalk "4.1.0"
-    chokidar "^3.5.1"
-    copy-webpack-plugin "^10.2.4"
-    css-loader "^6.4.0"
-    css-minimizer-webpack-plugin "^3.4.1"
-    dotenv "~10.0.0"
-    file-loader "^6.2.0"
-    fork-ts-checker-webpack-plugin "7.2.13"
-    fs-extra "^10.1.0"
-    ignore "^5.0.4"
-    less "3.12.2"
-    less-loader "^11.1.0"
-    license-webpack-plugin "^4.0.2"
-    loader-utils "^2.0.3"
-    mini-css-extract-plugin "~2.4.7"
-    parse5 "4.0.0"
-    parse5-html-rewriting-stream "6.0.1"
-    postcss "^8.4.14"
-    postcss-import "~14.1.0"
-    postcss-loader "^6.1.1"
-    raw-loader "^4.0.2"
-    rxjs "^6.5.4"
-    sass "^1.42.1"
-    sass-loader "^12.2.0"
-    source-map-loader "^3.0.0"
-    style-loader "^3.3.0"
-    stylus "^0.55.0"
-    stylus-loader "^7.1.0"
-    terser-webpack-plugin "^5.3.3"
-    ts-loader "^9.3.1"
-    ts-node "10.9.1"
-    tsconfig-paths "^3.9.0"
-    tsconfig-paths-webpack-plugin "3.5.2"
-    tslib "^2.3.0"
-    webpack "^5.75.0"
-    webpack-dev-server "^4.9.3"
-    webpack-merge "^5.8.0"
-    webpack-node-externals "^3.0.0"
-    webpack-sources "^3.2.3"
-    webpack-subresource-integrity "^5.1.0"
 
 "@nrwl/webpack@15.3.2":
   version "15.3.2"
@@ -3818,7 +3755,7 @@
     "@svgr/plugin-jsx" "^6.5.1"
     "@svgr/plugin-svgo" "^6.5.1"
 
-"@swc/helpers@0.4.14":
+"@swc/helpers@0.4.14", "@swc/helpers@^0.4.11":
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
   integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
