@@ -2175,6 +2175,29 @@
     webpack "^4 || ^5"
     webpack-node-externals "^3.0.0"
 
+"@nrwl/cypress@15.3.2":
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-15.3.2.tgz#534d7cb94666a95e2c1577edaeca4077c8249e6e"
+  integrity sha512-ouP/fAFeJ4xyhlzxVER5sMcyiejKhLzW8xnFW1Sso0QTfdk0DTP6MdMFeH68oOnT+oOFpVuu5ruv1QlVR4E6wA==
+  dependencies:
+    "@babel/core" "^7.0.1"
+    "@babel/preset-env" "^7.0.0"
+    "@cypress/webpack-preprocessor" "^5.12.0"
+    "@nrwl/devkit" "15.3.2"
+    "@nrwl/linter" "15.3.2"
+    "@nrwl/workspace" "15.3.2"
+    "@phenomnomnominal/tsquery" "4.1.1"
+    babel-loader "^8.0.2"
+    chalk "4.1.0"
+    dotenv "~10.0.0"
+    fork-ts-checker-webpack-plugin "7.2.13"
+    semver "7.3.4"
+    ts-loader "^9.3.1"
+    tsconfig-paths-webpack-plugin "3.5.2"
+    tslib "^2.3.0"
+    webpack "^4 || ^5"
+    webpack-node-externals "^3.0.0"
+
 "@nrwl/devkit@15.2.4":
   version "15.2.4"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-15.2.4.tgz#ffcb69f462df19d3d282cf25bf346926ee23f141"
@@ -2377,7 +2400,7 @@
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
-"@nrwl/storybook@15.2.4", "@nrwl/storybook@^15.0.5":
+"@nrwl/storybook@15.2.4":
   version "15.2.4"
   resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.2.4.tgz#fb284cac6e3d8b23ae1bd425c11ffcda57124839"
   integrity sha512-qIIMrBejf6BmKPx+a1m3SJD++gNlPdVqtjIQFxPlphjr8R1sufV49Iw7HwFwmDak801E3e37OxV6aUCb6w+cKw==
@@ -2386,6 +2409,18 @@
     "@nrwl/devkit" "15.2.4"
     "@nrwl/linter" "15.2.4"
     "@nrwl/workspace" "15.2.4"
+    dotenv "~10.0.0"
+    semver "7.3.4"
+
+"@nrwl/storybook@^15.0.5":
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.3.2.tgz#bda0a6bcfc684c8761209e006f05ace05abc422c"
+  integrity sha512-S5mJEygJS+GGAnxjcUMdWLa4Qxu2KV1RSd05u9ocDXixkD7foqMZTVukCP/HEPCmgOWzAfUDixFDw5dFnP8Cwg==
+  dependencies:
+    "@nrwl/cypress" "15.3.2"
+    "@nrwl/devkit" "15.3.2"
+    "@nrwl/linter" "15.3.2"
+    "@nrwl/workspace" "15.3.2"
     dotenv "~10.0.0"
     semver "7.3.4"
 
