@@ -2205,6 +2205,19 @@
     webpack "^4 || ^5"
     webpack-node-externals "^3.0.0"
 
+"@nrwl/cypress@15.4.1":
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-15.4.1.tgz#bfac47e6ba98fafe277f8c6d963fd2c6e9363183"
+  integrity sha512-Z9pQYAk63+O+bkbkQHNn/gvc5J8CLlQzTNr5X6xMMHZvDqLkx7GVEBwljlIrXCltliL8QxEwMb0Xj24PwS9qqA==
+  dependencies:
+    "@nrwl/devkit" "15.4.1"
+    "@nrwl/linter" "15.4.1"
+    "@nrwl/workspace" "15.4.1"
+    "@phenomnomnominal/tsquery" "4.1.1"
+    chalk "4.1.0"
+    dotenv "~10.0.0"
+    semver "7.3.4"
+
 "@nrwl/devkit@15.3.3":
   version "15.3.3"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-15.3.3.tgz#8a038334cf5b563befdad4b201e0b146dfd2969a"
