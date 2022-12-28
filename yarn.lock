@@ -2359,14 +2359,14 @@
     minimatch "3.0.5"
     semver "7.3.4"
 
-"@nrwl/rollup@15.4.1":
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/rollup/-/rollup-15.4.1.tgz#fab76a9634f5b0904c1d3e7bc030496363464fd1"
-  integrity sha512-ua1pkpoNfobQxdalJhyrR13ULA71I2B3Tp6xFsNb0jIuLdG5vSve2+oq5OnQfpQLbhkEiFRprpkctcP3T5qxFg==
+"@nrwl/rollup@15.4.2":
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/rollup/-/rollup-15.4.2.tgz#c1bbd033e683e5f62a3ba4a6532f066da7c0501c"
+  integrity sha512-3i/5l4vqo53L/BCVlt6Mu8vekdaSZi1jwKSmF4JYhra6wfU1yjWunEQq/wFVp4u21NyC7sRtlHYsR1OoAUvsUw==
   dependencies:
-    "@nrwl/devkit" "15.4.1"
-    "@nrwl/js" "15.4.1"
-    "@nrwl/workspace" "15.4.1"
+    "@nrwl/devkit" "15.4.2"
+    "@nrwl/js" "15.4.2"
+    "@nrwl/workspace" "15.4.2"
     "@rollup/plugin-babel" "^5.3.0"
     "@rollup/plugin-commonjs" "^20.0.0"
     "@rollup/plugin-image" "^2.1.0"
@@ -2382,7 +2382,7 @@
     rollup-plugin-copy "^3.4.0"
     rollup-plugin-peer-deps-external "^2.2.4"
     rollup-plugin-postcss "^4.0.1"
-    rollup-plugin-typescript2 "^0.31.1"
+    rollup-plugin-typescript2 "0.34.1"
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
@@ -2412,24 +2412,24 @@
   dependencies:
     nx "15.4.2"
 
-"@nrwl/vite@15.4.1":
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/vite/-/vite-15.4.1.tgz#4121899b3cef84b209c70a236cf54b121ecea00a"
-  integrity sha512-zH+D0hISCipnZXiGCyA72tCHf5Zuxi7YLrlYUHzetPP0sXE3C3uiDX0YFs4iua//vtzU0muQMZ8K05Oq1ZZv6Q==
+"@nrwl/vite@15.4.2":
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/vite/-/vite-15.4.2.tgz#c87a3ba2a4c4e196be3058a0ba2dbced9f6dcac2"
+  integrity sha512-nQQylap+HweSyud8qbBSRPKNzKMFePQiFb34qje48dcI3ZbK/16MgPgYNlQxhIKQrk2E3433c7rruIoggrolmQ==
   dependencies:
-    "@nrwl/devkit" "15.4.1"
-    "@nrwl/js" "15.4.1"
-    "@nrwl/workspace" "15.4.1"
+    "@nrwl/devkit" "15.4.2"
+    "@nrwl/js" "15.4.2"
+    "@nrwl/workspace" "15.4.2"
     "@phenomnomnominal/tsquery" "4.1.1"
     "@swc/helpers" "^0.4.11"
     chalk "4.1.0"
     dotenv "~10.0.0"
     enquirer "~2.3.6"
 
-"@nrwl/web@15.4.1":
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-15.4.1.tgz#d2c716caa88c24d60c484888c27abb8f4ba5a0a2"
-  integrity sha512-4qRqvBr73rz5oLfVKnWV+/zOGlzPX/rWGzajYco3f8ynkG260n7pkeJSK33F05zri1DzzJh6IO4x0MQ041/52w==
+"@nrwl/web@15.4.2":
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-15.4.2.tgz#2bfa4b246df4fda0a7bddef82bf63d488ec4b417"
+  integrity sha512-ZJrGas0eGxVROpCoqNbsZeSu2kIZlA7mIqdq6dowi6fzEoWdDwnO8SfQP/QGphVcawUgYObHgdNFjJf+YFKvnA==
   dependencies:
     "@babel/core" "^7.15.0"
     "@babel/plugin-proposal-class-properties" "^7.14.5"
@@ -2438,15 +2438,15 @@
     "@babel/preset-env" "^7.15.0"
     "@babel/preset-typescript" "^7.15.0"
     "@babel/runtime" "^7.14.8"
-    "@nrwl/cypress" "15.4.1"
-    "@nrwl/devkit" "15.4.1"
-    "@nrwl/jest" "15.4.1"
-    "@nrwl/js" "15.4.1"
-    "@nrwl/linter" "15.4.1"
-    "@nrwl/rollup" "15.4.1"
-    "@nrwl/vite" "15.4.1"
-    "@nrwl/webpack" "15.4.1"
-    "@nrwl/workspace" "15.4.1"
+    "@nrwl/cypress" "15.4.2"
+    "@nrwl/devkit" "15.4.2"
+    "@nrwl/jest" "15.4.2"
+    "@nrwl/js" "15.4.2"
+    "@nrwl/linter" "15.4.2"
+    "@nrwl/rollup" "15.4.2"
+    "@nrwl/vite" "15.4.2"
+    "@nrwl/webpack" "15.4.2"
+    "@nrwl/workspace" "15.4.2"
     babel-plugin-const-enum "^1.0.1"
     babel-plugin-macros "^2.8.0"
     babel-plugin-transform-typescript-metadata "^0.3.1"
@@ -2455,59 +2455,6 @@
     http-server "^14.1.0"
     ignore "^5.0.4"
     tslib "^2.3.0"
-
-"@nrwl/webpack@15.4.1":
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/webpack/-/webpack-15.4.1.tgz#aff806b3c4b371b35359682179aa85cd7cb94aab"
-  integrity sha512-RmhoszApD0dK7T93GLxT3zirzTzfrgcXbBElSGuN3BHLkNWa1KHOfO8hwskr7TuZONJ3vawyaHWr3JkTk1sqsw==
-  dependencies:
-    "@nrwl/devkit" "15.4.1"
-    "@nrwl/js" "15.4.1"
-    "@nrwl/workspace" "15.4.1"
-    autoprefixer "^10.4.9"
-    babel-loader "^8.2.2"
-    browserslist "^4.21.4"
-    caniuse-lite "^1.0.30001394"
-    chalk "4.1.0"
-    chokidar "^3.5.1"
-    copy-webpack-plugin "^10.2.4"
-    css-loader "^6.4.0"
-    css-minimizer-webpack-plugin "^3.4.1"
-    dotenv "~10.0.0"
-    file-loader "^6.2.0"
-    fork-ts-checker-webpack-plugin "7.2.13"
-    fs-extra "^10.1.0"
-    ignore "^5.0.4"
-    less "3.12.2"
-    less-loader "^11.1.0"
-    license-webpack-plugin "^4.0.2"
-    loader-utils "^2.0.3"
-    mini-css-extract-plugin "~2.4.7"
-    parse5 "4.0.0"
-    parse5-html-rewriting-stream "6.0.1"
-    postcss "^8.4.14"
-    postcss-import "~14.1.0"
-    postcss-loader "^6.1.1"
-    raw-loader "^4.0.2"
-    rxjs "^6.5.4"
-    sass "^1.42.1"
-    sass-loader "^12.2.0"
-    source-map-loader "^3.0.0"
-    style-loader "^3.3.0"
-    stylus "^0.55.0"
-    stylus-loader "^7.1.0"
-    terser-webpack-plugin "^5.3.3"
-    ts-loader "^9.3.1"
-    ts-node "10.9.1"
-    tsconfig-paths "^3.9.0"
-    tsconfig-paths-webpack-plugin "3.5.2"
-    tslib "^2.3.0"
-    webpack "^5.75.0"
-    webpack-dev-server "^4.9.3"
-    webpack-merge "^5.8.0"
-    webpack-node-externals "^3.0.0"
-    webpack-sources "^3.2.3"
-    webpack-subresource-integrity "^5.1.0"
 
 "@nrwl/webpack@15.4.2":
   version "15.4.2"
@@ -4748,15 +4695,6 @@
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
-
-"@yarn-tool/resolve-package@^1.0.40":
-  version "1.0.47"
-  resolved "https://registry.yarnpkg.com/@yarn-tool/resolve-package/-/resolve-package-1.0.47.tgz#8ec25f291a316280a281632331e88926a66fdf19"
-  integrity sha512-Zaw58gQxjQceJqhqybJi1oUDaORT8i2GTgwICPs8v/X/Pkx35FXQba69ldHVg5pQZ6YLKpROXgyHvBaCJOFXiA==
-  dependencies:
-    pkg-dir "< 6 >= 5"
-    tslib "^2"
-    upath2 "^3.1.13"
 
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
@@ -13553,13 +13491,6 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==
 
-path-is-network-drive@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/path-is-network-drive/-/path-is-network-drive-1.0.20.tgz#9c264db2e0fce5e9bc2ef9177fcab3f996d1a1b5"
-  integrity sha512-p5wCWlRB4+ggzxWshqHH9aF3kAuVu295NaENXmVhThbZPJQBeJdxZTP6CIoUR+kWHDUW56S9YcaO1gXnc/BOxw==
-  dependencies:
-    tslib "^2"
-
 path-key@^2.0.0, path-key@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
@@ -13579,13 +13510,6 @@ path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
-
-path-strip-sep@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/path-strip-sep/-/path-strip-sep-1.0.17.tgz#3b7dd4f461cf73a9277333f50289ce9b00cffba3"
-  integrity sha512-+2zIC2fNgdilgV7pTrktY6oOxxZUo9x5zJYfTzxsGze5kSGDDwhA5/0WlBn+sUyv/WuuyYn3OfM+Ue5nhdQUgA==
-  dependencies:
-    tslib "^2"
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -13691,13 +13615,6 @@ pirates@^4.0.1, pirates@^4.0.4, pirates@^4.0.5:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.5.tgz#feec352ea5c3268fb23a37c702ab1699f35a5f3b"
   integrity sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==
 
-"pkg-dir@< 6 >= 5", pkg-dir@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
-  integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
-  dependencies:
-    find-up "^5.0.0"
-
 pkg-dir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-3.0.0.tgz#2749020f239ed990881b1f71210d51eb6523bea3"
@@ -13711,6 +13628,13 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
     find-up "^4.0.0"
+
+pkg-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+  integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
+  dependencies:
+    find-up "^5.0.0"
 
 playwright-core@1.27.1, playwright-core@>=1.2.0:
   version "1.27.1"
@@ -15075,17 +14999,16 @@ rollup-plugin-postcss@^4.0.1:
     safe-identifier "^0.4.2"
     style-inject "^0.3.0"
 
-rollup-plugin-typescript2@^0.31.1:
-  version "0.31.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.31.2.tgz#463aa713a7e2bf85b92860094b9f7fb274c5a4d8"
-  integrity sha512-hRwEYR1C8xDGVVMFJQdEVnNAeWRvpaY97g5mp3IeLnzhNXzSVq78Ye/BJ9PAaUfN4DXa/uDnqerifMOaMFY54Q==
+rollup-plugin-typescript2@0.34.1:
+  version "0.34.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.34.1.tgz#c457f155a71d133c142689213fce78694e30d0be"
+  integrity sha512-P4cHLtGikESmqi1CA+tdMDUv8WbQV48mzPYt77TSTOPJpERyZ9TXdDgjSDix8Fkqce6soYz3+fa4lrC93IEkcw==
   dependencies:
     "@rollup/pluginutils" "^4.1.2"
-    "@yarn-tool/resolve-package" "^1.0.40"
     find-cache-dir "^3.3.2"
     fs-extra "^10.0.0"
-    resolve "^1.20.0"
-    tslib "^2.3.1"
+    semver "^7.3.7"
+    tslib "^2.4.0"
 
 rollup-pluginutils@^2.8.2:
   version "2.8.2"
@@ -16759,7 +16682,7 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.3.1, tslib@^2.4.0:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
@@ -17070,16 +16993,6 @@ untildify@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/untildify/-/untildify-4.0.0.tgz#2bc947b953652487e4600949fb091e3ae8cd919b"
   integrity sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==
-
-upath2@^3.1.13:
-  version "3.1.19"
-  resolved "https://registry.yarnpkg.com/upath2/-/upath2-3.1.19.tgz#d987d34a62b2daad1c54a692fd5a720a30c9a786"
-  integrity sha512-d23dQLi8nDWSRTIQwXtaYqMrHuca0As53fNiTLLFDmsGBbepsZepISaB2H1x45bDFN/n3Qw9bydvyZEacTrEWQ==
-  dependencies:
-    "@types/node" "*"
-    path-is-network-drive "^1.0.20"
-    path-strip-sep "^1.0.17"
-    tslib "^2"
 
 upath@^1.1.1:
   version "1.2.0"
