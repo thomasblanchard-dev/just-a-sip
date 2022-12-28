@@ -2203,24 +2203,6 @@
     confusing-browser-globals "^1.0.9"
     semver "7.3.4"
 
-"@nrwl/jest@15.4.1":
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-15.4.1.tgz#f6db945b4396371b900d0de2f025aafe735d7db8"
-  integrity sha512-mwHFL1BQvDC1mbqSd9se7li5RzwPmDTHx6PQSeMFD86+0WhwgYee4GqFDvhF+HdRhjna3KELipQNKneOwhhhpg==
-  dependencies:
-    "@jest/reporters" "28.1.1"
-    "@jest/test-result" "28.1.1"
-    "@nrwl/devkit" "15.4.1"
-    "@phenomnomnominal/tsquery" "4.1.1"
-    chalk "4.1.0"
-    dotenv "~10.0.0"
-    identity-obj-proxy "3.0.0"
-    jest-config "28.1.1"
-    jest-resolve "28.1.1"
-    jest-util "28.1.1"
-    resolve.exports "1.1.0"
-    tslib "^2.3.0"
-
 "@nrwl/jest@15.4.2":
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-15.4.2.tgz#105355db9cc337b53954d6bec291d2ba55343289"
