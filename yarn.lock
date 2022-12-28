@@ -2221,23 +2221,6 @@
     resolve.exports "1.1.0"
     tslib "^2.3.0"
 
-"@nrwl/js@15.4.1":
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/js/-/js-15.4.1.tgz#eecbb79b2d3aa4f03bf6cfe7a85578415c78dc0d"
-  integrity sha512-qsb720YFTnzTqB+lDnlRpHRlf/UrAKiXanRpOMqaOo9x2tMhSSiJcXuirq418SdEpBop/+0FIKBor5cPVFQbqg==
-  dependencies:
-    "@nrwl/devkit" "15.4.1"
-    "@nrwl/linter" "15.4.1"
-    "@nrwl/workspace" "15.4.1"
-    chalk "4.1.0"
-    fast-glob "3.2.7"
-    fs-extra "^10.1.0"
-    ignore "^5.0.4"
-    js-tokens "^4.0.0"
-    minimatch "3.0.5"
-    source-map-support "0.5.19"
-    tree-kill "1.2.2"
-
 "@nrwl/js@15.4.2":
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/@nrwl/js/-/js-15.4.2.tgz#ad444c2f6aedbc9891fdf801b98bf48522e864d3"
