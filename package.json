@@ -55,7 +55,7 @@
     "@nrwl/react": "15.4.1",
     "@nrwl/storybook": "15.4.1",
     "@nrwl/web": "15.4.2",
-    "@nrwl/workspace": "15.4.1",
+    "@nrwl/workspace": "15.4.2",
     "@storybook/addon-a11y": "^6.5.14",
     "@storybook/addon-essentials": "~6.5.9",
     "@storybook/addon-postcss": "^2.0.0",
