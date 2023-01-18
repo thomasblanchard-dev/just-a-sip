@@ -47,7 +47,7 @@
     "@nrwl/cli": "15.5.2",
     "@nrwl/cypress": "15.5.2",
     "@nrwl/eslint-plugin-nx": "15.5.2",
-    "@nrwl/jest": "15.5.1",
+    "@nrwl/jest": "15.5.2",
     "@nrwl/js": "15.5.2",
     "@nrwl/linter": "15.5.2",
     "@nrwl/next": "15.5.2",
