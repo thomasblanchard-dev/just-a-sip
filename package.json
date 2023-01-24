@@ -44,7 +44,7 @@
     "@babel/preset-typescript": "7.18.6",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@nrwl/cli": "15.5.3",
+    "@nrwl/cli": "15.6.1",
     "@nrwl/cypress": "15.5.3",
     "@nrwl/eslint-plugin-nx": "15.5.3",
     "@nrwl/jest": "15.5.3",
