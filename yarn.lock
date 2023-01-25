@@ -2218,12 +2218,12 @@
     semver "7.3.4"
     tslib "^2.3.0"
 
-"@nrwl/eslint-plugin-nx@15.5.3":
-  version "15.5.3"
-  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-15.5.3.tgz#9d591eed4e53ec4e1fc8195cc110f51239d35f52"
-  integrity sha512-90PT7lXK4Ta7KyE0ugkjFJDgI2Hez2piakHzHqik9Uorbu99KHi/BvGiTQ1KVibsZMdjpHT0iH5E970ekX6Nig==
+"@nrwl/eslint-plugin-nx@15.6.2":
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-15.6.2.tgz#6a75035b59cdb6391a28a8d838d3448b6a339da5"
+  integrity sha512-6hchLDGZq4maUmeOejbVIDuGWUPLubBqjFdr3mivy/2hIeoSpv7ScR7eSNVX5agARW7X2VvYz5cA3AAqYYa0Ag==
   dependencies:
-    "@nrwl/devkit" "15.5.3"
+    "@nrwl/devkit" "15.6.2"
     "@typescript-eslint/utils" "^5.36.1"
     chalk "^4.1.0"
     confusing-browser-globals "^1.0.9"
