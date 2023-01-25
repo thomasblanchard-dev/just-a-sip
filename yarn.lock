@@ -2354,6 +2354,18 @@
     minimatch "3.0.5"
     semver "7.3.4"
 
+"@nrwl/react@15.6.2":
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.6.2.tgz#141ab396924091478ebed25f86eaf81dd8fbb861"
+  integrity sha512-uUORSfxuOltHqed3ix+6mIXcGsZ5CXcSQj/RfMzIp9uBu66PabAzActFYETGFFEImW7OuvfWYQitje2xY9DnqQ==
+  dependencies:
+    "@nrwl/devkit" "15.6.2"
+    "@nrwl/linter" "15.6.2"
+    "@nrwl/workspace" "15.6.2"
+    "@phenomnomnominal/tsquery" "4.1.1"
+    chalk "^4.1.0"
+    minimatch "3.0.5"
+
 "@nrwl/rollup@15.5.3":
   version "15.5.3"
   resolved "https://registry.yarnpkg.com/@nrwl/rollup/-/rollup-15.5.3.tgz#0e5813e8368d22d525f7fdb8227dc03a60cfd169"
