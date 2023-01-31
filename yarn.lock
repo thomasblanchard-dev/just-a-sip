@@ -2372,18 +2372,6 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/react@15.6.2":
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.6.2.tgz#141ab396924091478ebed25f86eaf81dd8fbb861"
-  integrity sha512-uUORSfxuOltHqed3ix+6mIXcGsZ5CXcSQj/RfMzIp9uBu66PabAzActFYETGFFEImW7OuvfWYQitje2xY9DnqQ==
-  dependencies:
-    "@nrwl/devkit" "15.6.2"
-    "@nrwl/linter" "15.6.2"
-    "@nrwl/workspace" "15.6.2"
-    "@phenomnomnominal/tsquery" "4.1.1"
-    chalk "^4.1.0"
-    minimatch "3.0.5"
-
 "@nrwl/react@15.6.3":
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-15.6.3.tgz#2165d6b51b99bde0f1e4e9dc784f35f687e2cc1b"
