@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "main": "src/index.tsx",
-  "type": "module",
   "license": "Apache-2.0",
   "licenses": [
     {
@@ -14,7 +13,7 @@
   "scripts": {
     "preview": "vite preview",
     "storybook": "set NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006 --no-manager-cache",
-    "build-storybook": "build-storybook"
+    "build-storybook": "set NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
   },
   "dependencies": {
     "react": "^18.2.0",

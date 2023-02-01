@@ -16,6 +16,12 @@
     },
     "test": {
       "cache": false
+    },
+    "storybook": {
+      "cache": false
+    },
+    "build-storybook": {
+      "cache": false
     }
   }
 }
