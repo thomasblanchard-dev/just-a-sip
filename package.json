@@ -1,14 +1,14 @@
 {
-  "name": "ptiritueux",
+  "name": "just-a-sip",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/thomasblanchard-dev/ptiritueux",
+  "homepage": "https://github.com/thomasblanchard-dev/just-a-sip",
   "bugs": {
-    "url": "https://github.com/thomasblanchard-dev/ptiritueux/issues"
+    "url": "https://github.com/thomasblanchard-dev/just-a-sip/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasblanchard-dev/ptiritueux.git"
+    "url": "git+https://github.com/thomasblanchard-dev/just-a-sip.git"
   },
   "license": "Apache-2.0",
   "scripts": {
@@ -78,7 +78,7 @@
     }
   ],
   "storybook-deployer": {
-    "gitUsername": "Ptiritueux BOT",
+    "gitUsername": "Just a Sip BOT",
     "commitMessage": "chore: deploy storybook"
   },
   "dependencies": {
