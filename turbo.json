@@ -2,8 +2,13 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": [".next/**", "dist/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".next/**",
+        "dist/**"
+      ]
     },
     "lint": {
       "outputs": []
@@ -15,6 +20,12 @@
       "cache": false
     },
     "test": {
+      "cache": false
+    },
+    "storybook": {
+      "cache": false
+    },
+    "build-storybook": {
       "cache": false
     }
   }
