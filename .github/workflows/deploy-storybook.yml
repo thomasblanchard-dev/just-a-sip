@@ -30,12 +30,16 @@ jobs:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.26.2
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
         env:
           HUSKY: 0
 
       - name: Deploy Storybook showcases
-        run: yarn deploy-storybook --ci
+        run: pnpm run deploy-storybook --ci
         env:
           GH_TOKEN: '${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}'
