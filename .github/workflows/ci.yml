@@ -21,6 +21,6 @@ jobs:
       - name: Run Linter
         run: pnpm run lint
       - name: Run Tests
-        run: pnpm run test --ci --code-coverage
+        run: pnpm run test
       - name: Build the packages
         run: pnpm run build
