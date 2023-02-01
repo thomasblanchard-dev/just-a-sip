@@ -1,11 +1,11 @@
 module.exports = {
-  core: { builder: 'webpack5' },
-
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     '@storybook/addon-a11y',
     '@whitespace/storybook-addon-html',
+    '@storybook/addon-links',
     '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
     {
       name: '@storybook/addon-postcss',
       options: {
@@ -15,4 +15,11 @@ module.exports = {
       },
     },
   ],
+  framework: '@storybook/react',
+  core: {
+    builder: '@storybook/builder-vite',
+  },
+  features: {
+    storyStoreV7: true,
+  },
 };
