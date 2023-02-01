@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "preview": "vite preview",
-    "storybook": "set NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006 --no-manager-cache",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
     "build-storybook": "set NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
   },
   "dependencies": {
@@ -45,6 +45,7 @@
     "jest-environment-jsdom": "29.4.0",
     "postcss": "^8.4.21",
     "sass": "1.57.1",
+    "storybook-dark-mode": "^2.0.5",
     "tailwind-config": "workspace:*",
     "tailwindcss": "^3.2.4",
     "ts-jest": "29.0.5",

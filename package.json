@@ -23,7 +23,6 @@
     "prettier": "prettier --plugin-search-dir=. .",
     "prettier:fix": "prettier --write --plugin-search-dir=. .",
     "start": "turbo run start --parallel",
-    "storybook": "turbo run storybook --parallel",
     "stylelint": "stylelint {apps,packages}/**/*.css",
     "stylelint:fix": "yarn stylelint --fix",
     "test": "turbo run test --parallel"
