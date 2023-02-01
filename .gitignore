@@ -1,5 +1,16 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# dotenv
+.env
+
 # Builds
 **/build
 **/dist
@@ -41,6 +52,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Turborepo
+.turbo
 
 # Next.js
 .next

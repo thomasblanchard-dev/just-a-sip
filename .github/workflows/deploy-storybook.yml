@@ -2,8 +2,8 @@ name: Deploy Storybook
 
 on:
   push:
-    branches: [ "main" ]
-    
+    branches: ['main']
+
 jobs:
   build:
     name: Build
@@ -31,11 +31,11 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install
         env:
           HUSKY: 0
 
       - name: Deploy Storybook showcases
-        run: yarn deploy-storybook --ci
+        run: pnpm run deploy-storybook --ci
         env:
           GH_TOKEN: '${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}'

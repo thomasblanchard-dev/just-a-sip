@@ -1,6 +1,6 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
-  "ignoreFiles": ["**/dist/**/*.css", "./libs/ui/src/tailwind.min.css"],
+  "ignoreFiles": ["**/dist/**/*.css", "./packages/ui/src/tailwind.min.css"],
   "rules": {
     "at-rule-no-unknown": [
       true,
