@@ -14,7 +14,7 @@
   "scripts": {
     "build": "turbo run build --parallel",
     "build-storybook": "turbo run build-storybook --parallel",
-    "deploy-storybook": "storybook-to-ghpages --packages packages -o docs --monorepo-index-generator tools/scripts/monorepo-storybook-generator.js",
+    "deploy-storybook": "storybook-to-ghpages --ci --packages packages -o docs --monorepo-index-generator tools/scripts/monorepo-storybook-generator.js --dry-run",
     "dev": "turbo run dev --parallel",
     "export": "turbo run export --parallel",
     "postinstall": "is-ci || husky install",

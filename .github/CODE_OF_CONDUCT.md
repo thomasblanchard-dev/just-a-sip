@@ -1,4 +1,4 @@
-# Code of Conduct - Spiritueux
+# Code of Conduct - Just a Sip
 
 ## Our Pledge
 
